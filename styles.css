@@ -1,0 +1,36 @@
+body {
+    background-color: rgba(37,32,34,0.91);
+    color: rgb(246, 241, 244);
+    margin: auto;
+    width: 68%;
+    font-size: 18px;
+}
+
+a {
+    color: rgb(246, 241, 244);
+}
+
+img {
+    width: 600px;
+    height: 450px;
+}
+
+ul,
+ol {
+    background-color: #2a2929;
+}
+
+div {
+    background-color: #2a2929;
+}
+
+.images {
+    width: 450px;
+    height: 338px;
+}
+
+.container {
+    width: 90%;
+    height: 60%;
+    text-align: center;
+}
