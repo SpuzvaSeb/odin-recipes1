@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(37,32,34,0.91);
+    background-color: rgba(11, 19, 9, 0.93);
     color: rgb(246, 241, 244);
     margin: auto;
     width: 68%;
@@ -8,29 +8,63 @@ body {
 
 a {
     color: rgb(246, 241, 244);
+    margin: 5px;
 }
 
 img {
-    width: 600px;
-    height: 450px;
+    width: 500px;
+    height: 375px;
 }
 
 ul,
 ol {
-    background-color: #2a2929;
-}
-
-div {
-    background-color: #2a2929;
-}
-
-.images {
-    width: 450px;
-    height: 338px;
+    background-color: rgb(227, 222, 41);
+    color: black;
+    padding: 5px 10px 5px 30px;
+    margin-top: 5px;
 }
 
 .container {
-    width: 90%;
-    height: 60%;
+    background-color: rgb(125, 41, 227);
+    margin-top: 5px;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+#headline {
+    margin-bottom: 20px;
     text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+    margin-bottom: 5px
+}
+
+.description-text {
+    background-color: rgb(125, 41, 227);
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.images {
+    width: 225px;
+    height: auto;
+    display: inline-block;
+    margin: 5px;
+}
+
+.container {
+    width: 500px;
+    height: auto;
+    text-align: center;
+    background-color: rgb(125, 41, 227);
+    margin: auto;
+}
+
+#link-div {
+    text-align: center;
+    margin: auto auto 5px;
 }
